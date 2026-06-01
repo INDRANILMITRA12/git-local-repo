@@ -1,0 +1,33 @@
+Braches are alternative timeline to work on different things at the same time.
+
+Main Branch -- Suppose this the app that is live
+
+Branch1 - Developer 1 is working on a feature1 for the main app
+
+Branch2 - Developer 2 is working on a feature2 for the main app
+
+Now both are completly in diferent ecosystem and feature 1 will not impact feature 2 and vice a versa when they are
+finished with their features they will merge the feature to main branch and the main app will have the respected features.
+
+
+Head -- It denotes the brach in which I am working
+
+---------###########------------------
+######### Commands ################
+---------##########-------------------
+
+1 - git branch -- Gives a detail list of the existing branches
+
+2 - git branch branchname -- Creates the new Branch
+
+3 - git switch branchname -- switch to brachname
+
+4 - git switch -c branchmane -- Directly switch to branchname if branch already existed if not it will create and switch
+
+5 - git checkout brachname - switch to brachname
+
+--------------##############-----------------
+############# MERGING ################
+------------################-----------------
+
+git merge brachname -- > To merge we need to go to the branch in which we need to merge
