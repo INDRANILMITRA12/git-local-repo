@@ -30,4 +30,4 @@ Head -- It denotes the brach in which I am working
 ############# MERGING ################
 ------------################-----------------
 
-git merge brachname -- > To merge we need to go to the branch in which we need to merge
+git merge brachname -- > To merge we need to go to the branch in which we need to merge. Supp
