@@ -20,3 +20,16 @@ Git Commands
 
 7 - git log -- oneline -> to get the commit message in one line
 
+8 - git statsh -> To temporarly store a stagging file switchng branch
+
+9 - git stash save "message" -> To stash with message
+
+10 - git stash apply -> To bring the top stash file to the branch
+
+11 - git stash apply stash@{number} -> to bring the specific stash number
+
+12 - git stash pop -> TO apply the stash and clear it 
+
+13 - git stash apply stash@{number}  <branch name> -> To applty a specific stash to a specific branch
+
+14 - git stash clear - TO clear the stash
