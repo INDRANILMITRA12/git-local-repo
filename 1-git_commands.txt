@@ -15,3 +15,8 @@ Git Commands
 4 - git commit -m "commit message" -> To commmit the changes 
 
 5 - git push ->
+
+6 - git log -> To get the git commit logs
+
+7 - git log -- oneline -> to get the commit message in one line
+
