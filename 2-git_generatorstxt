@@ -1,0 +1,9 @@
+Git Generatrors - 
+1 - GIT Ignore 
+It is a git in wich we put the file names that we dont want git to track
+How to create - .gitignore
+
+2- Git Keep
+It is a git file which we add in an empty directory which we want git to track.
+
+
