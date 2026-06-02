@@ -2,7 +2,7 @@ Terminal Commands
 pwd --> TO check thje present working directory
 ls --> To list the folders
 ls -la --> To do the details listing (Show the hidden folders)
-
+cd .. --> TO get out of the folder
 ============##########====================
 Git Config Commands
 ===========###########====================
@@ -16,6 +16,8 @@ Git Commands
 1 - git status --> To check the staus of the repo
 
 2 - git init --> To create a git folder
+
+3 - git clone <https link > --> To clone a existing git repo to local
 
 3 - git add <filename> --> To add the file to the stagging area
 
