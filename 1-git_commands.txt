@@ -1,35 +1,50 @@
 Terminal Commands
-pwd -> TO check thje present working directory
-ls -> To list the folders
-ls -la -> To do the details listing (Show the hidden folders)
+pwd --> TO check thje present working directory
+ls --> To list the folders
+ls -la --> To do the details listing (Show the hidden folders)
 
+============##########====================
+Git Config Commands
+===========###########====================
+1 - git config --global user.email "your-email@example.com"
+2 - git config --global user.name "Your Name"
+3 - git config --list
 
+============##########====================
 Git Commands
+===========###########====================
+1 - git status --> To check the staus of the repo
 
-1 - git status -> To check the staus of the repo
+2 - git init --> To create a git folder
 
-2 - git init -> To create a git folder
+3 - git add <filename> --> To add the file to the stagging area
 
-3 - git add <filename> -> To add the file to the stagging area
+4 - git commit -m "commit message" --> To commmit the changes 
 
-4 - git commit -m "commit message" -> To commmit the changes 
+5 - git push -->
 
-5 - git push ->
+6 - git log --> To get the git commit logs
 
-6 - git log -> To get the git commit logs
+7 - git log --> oneline -> to get the commit message in one line
 
-7 - git log -- oneline -> to get the commit message in one line
+8 - git statsh --> To temporarly store a stagging file switchng branch
 
-8 - git statsh -> To temporarly store a stagging file switchng branch
+9 - git stash save "message" --> To stash with message
 
-9 - git stash save "message" -> To stash with message
+10 - git stash apply --> To bring the top stash file to the branch
 
-10 - git stash apply -> To bring the top stash file to the branch
+11 - git stash apply stash@{number} --> to bring the specific stash number
 
-11 - git stash apply stash@{number} -> to bring the specific stash number
+12 - git stash pop --> TO apply the stash and clear it 
 
-12 - git stash pop -> TO apply the stash and clear it 
+13 - git stash apply stash@{number}  <branch name> --> To applty a specific stash to a specific branch
 
-13 - git stash apply stash@{number}  <branch name> -> To applty a specific stash to a specific branch
+14 - git stash clear --> TO clear the stash
 
-14 - git stash clear - TO clear the stash
+15 - git reset --hard <hashid> --> To reset the previous version 
+
+16 - git reset --head@{1} -->
+
+17 - git reflog -->To get the details of all the log
+
+18 - git --versomn

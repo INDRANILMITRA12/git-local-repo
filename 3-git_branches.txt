@@ -26,8 +26,8 @@ Head -- It denotes the brach in which I am working
 
 5 - git checkout brachname - switch to brachname
 
---------------##############-----------------
-############# MERGING ################
-------------################-----------------
+6 - git merge brachname -- > To merge we need to go to the branch in which we need to merge.
 
-git merge brachname -- > To merge we need to go to the branch in which we need to merge.
+7 - git branch -m <old-branch-name> <new-branch-name> --> To rename a branch
+
+8 - git branch -d <branch-name> --> Delete a particular branch
