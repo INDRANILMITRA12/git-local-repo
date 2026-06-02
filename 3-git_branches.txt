@@ -16,18 +16,20 @@ Head -- It denotes the brach in which I am working
 ######### Commands ################
 ---------##########-------------------
 
-1 - git branch -- Gives a detail list of the existing branches
+1 - git branch --> Gives a detail list of the existing branches
 
-2 - git branch branchname -- Creates the new Branch
+2 - git branch branchname --> Creates the new Branch
 
-3 - git switch branchname -- switch to brachname
+3 - git switch branchname --> switch to brachname
 
-4 - git switch -c branchmane -- Directly switch to branchname if branch already existed if not it will create and switch
+4 - git switch -c branchmane --> Directly switch to branchname if branch already existed if not it will create and switch
 
-5 - git checkout brachname - switch to brachname
+5 - git checkout brachname --> switch to brachname
 
-6 - git merge brachname -- > To merge we need to go to the branch in which we need to merge.
+6 - git checkout -b <branchname> --> Same as switch -c  command
 
-7 - git branch -m <old-branch-name> <new-branch-name> --> To rename a branch
+7 - git merge brachname -- > To merge we need to go to the branch in which we need to merge.
 
-8 - git branch -d <branch-name> --> Delete a particular branch
+8 - git branch -m <old-branch-name> <new-branch-name> --> To rename a branch
+
+9 - git branch -d <branch-name> --> Delete a particular branch
