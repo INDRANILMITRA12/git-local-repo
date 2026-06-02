@@ -2,7 +2,7 @@ Terminal Commands
 pwd --> TO check thje present working directory
 ls --> To list the folders
 ls -la --> To do the details listing (Show the hidden folders)
-cd .. --> TO get out of the folder
+cd .. --> TO get out of the folder 
 ============##########====================
 Git Config Commands
 ===========###########====================
@@ -13,40 +13,50 @@ Git Config Commands
 ============##########====================
 Git Commands
 ===========###########====================
-1 - git status --> To check the staus of the repo
+1 - git --version --> To check which version of git is already installed
 
-2 - git init --> To create a git folder
+2 - git status --> To check the staus of the repo
 
-3 - git clone <https link > --> To clone a existing git repo to local
+3 - git init --> To create a git folder. Here we are creating the git folder from local to github.
 
-3 - git add <filename> --> To add the file to the stagging area
+4 - git clone <https link> --> To clone a existing git repo to local it is simillar to git init but here we are inializing from 
+github to local.
 
-4 - git commit -m "commit message" --> To commmit the changes 
+5 - git add <filename> --> To add the file to the stagging area
 
-5 - git push -->
+6 - git commit -m "commit message" --> To commmit the changes 
 
-6 - git log --> To get the git commit logs
+7 - git remote add origin <https link> --> to add the remote repo named origin where we will push
 
-7 - git log --> oneline -> to get the commit message in one line
+8 - git push origin main --> Here origin is the name of the remote repo in git and main is the branch name.
 
-8 - git statsh --> To temporarly store a stagging file switchng branch
+9 - git push -u origin main --> It helps in settingh the upstream so that from the next time whenever we will push it
+will pushed to the main branch.
 
-9 - git stash save "message" --> To stash with message
+10 - git pull --> To load the contents form the git hub to local after the git inializing is done.
 
-10 - git stash apply --> To bring the top stash file to the branch
+11 - git log --> To get the git commit logs
 
-11 - git stash apply stash@{number} --> to bring the specific stash number
+12 - git log --> oneline -> to get the commit message in one line
 
-12 - git stash pop --> TO apply the stash and clear it 
+13 - git statsh --> To temporarly store a stagging file switchng branch
 
-13 - git stash apply stash@{number}  <branch name> --> To applty a specific stash to a specific branch
+14 - git stash save "message" --> To stash with message
 
-14 - git stash clear --> TO clear the stash
+15 - git stash apply --> To bring the top stash file to the branch
 
-15 - git reset --hard <hashid> --> To reset the previous version 
+16 - git stash apply stash@{number} --> to bring the specific stash number
 
-16 - git reset --head@{1} -->
+17 - git stash pop --> TO apply the stash and clear it 
 
-17 - git reflog -->To get the details of all the log
+18 - git stash apply stash@{number}  <branch name> --> To applty a specific stash to a specific branch
 
-18 - git --versomn
+19 - git stash clear --> TO clear the stash
+
+20 - git reset --hard <hashid> --> To reset the previous version 
+
+21 - git reset --head@{1} -->
+
+22 - git reflog -->To get the details of all the log
+
+22 - 
